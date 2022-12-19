@@ -26,7 +26,7 @@ Step - 2 : Create Pub/Sub Topic
 Step - 3 : Create Function
 			
 			Cloud Function > create Function 
-			Name : CFjooli
+			Name : [given name]
 			Region : us-east1
 			
 			Trigger
