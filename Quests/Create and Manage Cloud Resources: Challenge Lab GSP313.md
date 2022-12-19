@@ -3,12 +3,13 @@ Lab Name: Create and Manage Cloud Resources: Challenge Lab (GSP313)
 
 Task 1: Create a project jumphost instance
 
-#### Navigate to compute engine>VM Instance & Click Create VM Instance follow the instructions as they mentioned. #### Note: create f1-micro type machine in default region & zone (Don't change them)
+#### Navigate to compute engine>VM Instance & Click Create VM Instance follow the instructions as they mentioned.
+#### Note: create f1-micro type machine in default region & zone (Don't change them)
           
 Task 2: Create a Kubernetes service cluster
-Run command:  
-#### Take care of Zone and Region of Cluster mentioned in lab instructions and change the port number if it is different
 
+#### Take care of Zone and Region of Cluster mentioned in lab instructions and change the port number if it is different
+Run command:  
 
 gcloud container clusters create nucleus-backend \
           --num-nodes 1 \
@@ -25,6 +26,7 @@ kubectl expose deployment hello-server \
           --port 8080
 
 Task 3: Set up an HTTP load balancer
+
 Run command: 
 #### change the firewall rule name and rename to specified instructions..
 
